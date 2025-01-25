@@ -18,7 +18,7 @@ import org.junit.runner.RunWith;
                 "json:target/cucumber.json"
         },
         publish = true,
-        tags = "@Alltests"
+        tags = "@All_tests"
 
 )
 

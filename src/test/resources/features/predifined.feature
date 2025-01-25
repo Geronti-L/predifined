@@ -1,4 +1,4 @@
-@Alltests
+@All_tests
 Feature: Google Search
 
   Scenario: search functionality test
