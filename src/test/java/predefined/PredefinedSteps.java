@@ -25,7 +25,7 @@ public class PredefinedSteps {
 
     @Then("title should be {string}")
     public void titleShouldBe(String title) {
-      String actualTitle= getDriver().getTitle().toString();
+      String actualTitle= getDriver().getTitle();
        assertThat(actualTitle,is(title));
 
 
