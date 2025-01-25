@@ -61,7 +61,7 @@ public class PredefinedSteps {
     public void elementWithXpathShouldContainText(String xpath, String text) {
         String ele=getDriver().findElement(By.xpath(xpath)).getText();
        assertTrue("The string contains value", ele.contains(text));
-       assertTrue("skks",ele.endsWith("t"));
+       assertTrue("check",ele.endsWith("t"));
 
     }
 }
