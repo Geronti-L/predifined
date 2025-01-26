@@ -20,3 +20,10 @@ Feature: Google Search
 #      Then I wait 2 seconds
       And I wait for element with xpath "//a[normalize-space()='Behavior-driven development - Wikipedia']" to be present
       Then element with xpath "//a[normalize-space()='Behavior-driven development - Wikipedia']" should contain text "development"
+
+
+      @heroku
+      Scenario: extract Canvas value
+        Given I navigate to "https://the-internet.herokuapp.com/challenging_dom"
+        Then element with xpath "//canvas[@id='canvas']" should be present
+        Then I extract canvas value and print it in console

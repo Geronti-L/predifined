@@ -19,7 +19,7 @@ import org.testng.TestNG;
                 "json:target/cucumber.json"
         },
         publish = true,
-        tags = "@bing"
+        tags = "@heroku"
 
 )
 
